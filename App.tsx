@@ -1,11 +1,5 @@
 
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { UploadCard } from './components/UploadCard';
-import { ResultView } from './components/ResultView';
-import { CreditsModal } from './components/CreditsModal';
-import { BottomNav } from './components/BottomNav';
-import { LoadingSpinner } from './components/LoadingSpinner';
 import { useCredits } from './hooks/useCredits';
 import { removeBackground } from './services/geminiService';
 import { fileToBase64 } from './utils/fileUtils';
